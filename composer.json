@@ -1,6 +1,7 @@
 {
     "name": "externalcronjobs/sdk",
     "description": "ExternalCronJobs PHP SDK",
+    "license": "Apache-2.0",
     "type": "library",
     "authors": [
         {
