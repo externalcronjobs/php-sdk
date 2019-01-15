@@ -1,0 +1,19 @@
+{
+    "name": "externalcronjobs/sdk",
+    "description": "ExternalCronJobs PHP SDK",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Simaranjit Singh",
+            "email": "simaranjit.singh@virdi.me"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExternalCronJobs\\": "src/ExternalCronJobs/"
+        }
+    }
+}
