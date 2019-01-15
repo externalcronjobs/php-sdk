@@ -23,10 +23,10 @@ $parameters = [
     'page' => 1
 ];
 
-$folders = $Client->crons->getAll($parameters);
+$cronJobs = $Client->crons->getAll($parameters);
 
 // Fetch single cron job
-$folder = $Client->crons->get('cron_job_id');
+$cronJob = $Client->crons->get('cron_job_id');
 
 // Create a cron job
 $parameters = [
@@ -83,7 +83,7 @@ $parameters = [
     'page' => 1
 ];
 
-$folders = $Client->timezones->getAll($parameters);
+$timezones = $Client->timezones->getAll($parameters);
 ```
 
 ## Cron Job Types
@@ -93,7 +93,7 @@ $parameters = [
     'page' => 1
 ];
 
-$folders = $Client->cronTypes->getAll($parameters);
+$cronTypes = $Client->cronTypes->getAll($parameters);
 ```
 
 ## Time Schedules
@@ -103,5 +103,5 @@ $parameters = [
     'page' => 1
 ];
 
-$folders = $Client->timeSchedules->getAll($parameters);
+$timeSchedules = $Client->timeSchedules->getAll($parameters);
 ```
