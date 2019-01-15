@@ -9,7 +9,7 @@ use ExternalCronJobs\V1\Services\TimeSchedules;
 use ExternalCronJobs\V1\Services\Timezones;
 
 class Client {
-    private $domain = 'http://hosted.externalcronjobs.l';
+    private $domain = 'http://hosted.externalcronjobs.com';
     
     /**
      * @var Folders $folders
